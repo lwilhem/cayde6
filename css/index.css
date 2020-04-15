@@ -1,20 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: sans-serif;
-  font-size: 1em;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
-}
-
 body {
   background-image: url(../assets/img/background_web.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
 }
 
-.header_background {
+.header-background {
   height: 320px;
   width: 100%;
   background-color: #12142e;
@@ -24,11 +17,43 @@ body {
 }
 
 .title {
-  font-size: 50pt;
+  font-size: 65pt;
   color: antiquewhite;
   font-weight: bold;
   font-family: Pier sans;
+  margin: 15% 0 0 20%;
 }
-.menu_titles {
+
+.subtitle {
+  color: antiquewhite;
+  font-family: Pier Sans;
+  font-weight: lighter;
+  margin: 10px 0 0 200px;
+  font-size: 15pt;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  top: 320px;
+  left: 20px;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.menu-titles {
+  margin-left: 60 px;
   color: white;
+  font-family: Pier sans;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.header-image {
+  height: 75%;
+  width: auto;
+  margin-left: auto;
+  align-self: center;
+  margin-right: 15%;
+  border: solid 10px antiquewhite;
 }
