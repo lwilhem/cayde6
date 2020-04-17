@@ -8,9 +8,14 @@
   box-sizing: border-box;
 }
 
+.about-image {
+  max-width: 42%;
+  height: auto;
+  padding-left: 12px;
+}
 .about-text {
   width: 50%;
-  margin-left: auto;
+  margin-left: 48px;
 }
 
 .paragraph {
@@ -22,7 +27,7 @@
 }
 
 .paragraph.abilities::before {
-  content: '';
+  content: "";
   display: block;
   width: 100px;
   height: 3px;
@@ -49,6 +54,6 @@
 .slideshow {
   margin: 0 2% 32px 2%;
   width: 96%;
-  height: 300px;
-  background-color: white;
+  height: 400px;
+  background-color: rgba(19, 21, 48, 0.8);
 }
