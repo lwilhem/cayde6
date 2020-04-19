@@ -1,0 +1,31 @@
+.contacts {
+  background-color: rgba(19, 21, 48, 0.8);
+  width: 96%;
+  margin: 2%;
+  color: white;
+  height: 500px;
+  padding-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form {
+  background-color: red;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  width: 40%;
+  align-items: center;
+  border: solid 10px white;
+}
+
+.label {
+  justify-self: flex-end;
+}
+
+.submit-button {
+  grid-column: 1 / 3;
+}
